@@ -1,0 +1,104 @@
+.generate_button {
+    margin-right: 40px;
+    background-color: rgb(32, 203, 44);
+    border-color:rgb(32, 203, 44) ;
+}
+
+.generate_button:hover {
+    border-color:rgb(32, 203, 44) ;
+    background-color:rgb(32, 203, 44) ;
+}
+
+.border {
+    width: 200px;
+    height: 200px;
+}
+
+/*  Navbar */
+
+.input {
+    padding-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.choose-color{
+    width: 80px;
+}
+.input {
+    margin-right: 10px;
+}
+.App {
+    background-color: rgb(235, 128, 135);
+}
+
+/* Media */
+
+@media (min-width: 750px) {
+    .left-form {
+        padding-left: 25px;
+        padding-right: 25px; 
+    }
+    .card-style {
+       height: 500px;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .left-form {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .card-style {
+        height: 950px;
+    }
+    .qr-area {
+        margin: 50px;
+    }
+    .choose-color{
+        width: 60px;
+    }
+    .delete-button{
+       margin-top: 10px;
+       display: block;
+       width: 100%;
+    }  
+    .add-button {
+        display: block;
+        width: 100%;       
+    }
+    .change-button {
+        display: block;
+        width: 100%;
+        margin-top: 10px; 
+    }
+  }
+
+  .border {
+    width: 40px;
+    height: 37px;
+  }
+
+  .add-button {
+    border-color: black;
+    
+  }
+  .add-button:hover {
+    border-color: black;
+  }
+
+  .change-button {
+    border-color: black;
+  }
+  .change-button:hover {
+    border-color: black;
+  }
+
+  .delete-button {
+    border-color: black;
+  }
+  .delete-button:hover {
+    border-color: black;
+  }
+  
+  
